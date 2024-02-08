@@ -27,6 +27,7 @@ sol = sol.subs(sp.Symbol('C1'), sp.sqrt(2 / a))
 #Antosz Soroczyński
 
 
+
 # Obliczanie średniej wartości położenia <x>
 mean_x = sp.integrate(sol.rhs * x * sol.rhs, (x, 0, a)).simplify()
 
