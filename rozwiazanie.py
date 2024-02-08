@@ -23,7 +23,8 @@ sol = sol.subs(k, n * sp.pi / a)
 sol = sol.subs(sp.Symbol('C1'), sp.sqrt(2 / a))
 #Samo Rozwiązanie
 # przesyłam samo rozwiązanie w pliku python, ponieważ nie potrefię przenieść skryptu do gita tak, aby dało się je odpalić
-# plik ipynb zamieściłem w zadaniu
+#plik ipynb zamieściłem w zadaniu w teams
+#Z poważaniem
 #Antosz Soroczyński
 
 
